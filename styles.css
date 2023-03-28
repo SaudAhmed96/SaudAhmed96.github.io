@@ -1,13 +1,40 @@
-.bg-secondary{
-    background-color: blue;
-    color: lightblue;
+
+.blue {
+    background-color: rgba(84, 105, 124, 0.95);
+    color: lightcyan;
 }
 
-.blue{
-    background-color: darkblue;
-    color: lightblue;
+.nav-link {
+    color: rgba(173,216,230,0.9) !important;
 }
 
-.nav-link{
-    background-color:white;
+.navbar-brand {
+    color: rgba(255,255,255,1) !important;
+}
+
+.hero { 
+    width: 100%;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.journey-header {
+    margin: 15px;
+}
+.accordion {
+    margin: 10px;
+}
+.accordion-item{
+    background-color: rgb(64, 83, 102) !important;
+    color: lightcyan !important;
+}
+
+.accordion-button {
+    background-color: rgba(33,37,41, 0.7) !important;
+    color: lightgoldenrodyellow !important;
 }
