@@ -31,10 +31,33 @@
 }
 .accordion-item{
     background-color: rgb(64, 83, 102) !important;
-    color: lightcyan !important;
+    color: lightcyan !important;    
 }
 
 .accordion-button {
     background-color: rgba(33,37,41, 0.7) !important;
     color: lightgoldenrodyellow !important;
+}
+
+.container.text-start {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    /* margin-left: 50px; */
+    margin: 10px 10px;
+    margin-left: 50px;
+}
+
+.tictactoe {
+    margin: 20px;
+    padding-left: 80px;
+    /* border-radius: 10px; */
+}
+
+.geartrain img{
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 20px;
 }
