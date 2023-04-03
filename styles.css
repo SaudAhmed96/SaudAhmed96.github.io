@@ -56,8 +56,35 @@
     /* border-radius: 10px; */
 }
 
-.geartrain img{
+.geartrain img {
     width: 500px;
     margin-left: 80px;
     margin-top: 20px;
+}
+
+
+/* contact html design */
+
+.contact-header { 
+    margin: 10px;
+}
+
+.form-floating  {
+    /* width: 300px; */
+    color: rgb(38, 107, 124);
+}
+
+.myform-format {
+    width: 500px;
+}
+
+/* .btn {
+    background-color: rgba(70, 87, 122, 0.808) !important;
+    color: rgb(148, 185, 185);
+    border: 1px black;
+} */
+
+.form-select {
+    margin: 10px;
+    width: 470px !important;
 }
