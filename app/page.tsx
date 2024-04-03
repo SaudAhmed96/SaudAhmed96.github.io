@@ -4,9 +4,8 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<section>
-			<div>
-				<h1>Saud Ahmed</h1>
+		<section className="px-3">
+			<div className="flex flex-col space-y-3">
 				<p>
 					I am an aspiring software developer currently working in project
 					management field. I love learning and creating new tools to help me at

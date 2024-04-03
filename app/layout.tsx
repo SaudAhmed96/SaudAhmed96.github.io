@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
+
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import { ConfigProvider } from "antd";
+import theme from "@/themeConfig";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +24,9 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<Navbar />
 				<AntdRegistry>
-					<main>{children}</main>
+					<ConfigProvider theme={theme}>
+						<main className="bg-slate-300 p-5">{children}</main>
+					</ConfigProvider>
 				</AntdRegistry>
 			</body>
 		</html>
