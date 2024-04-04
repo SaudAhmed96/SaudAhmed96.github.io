@@ -1,8 +1,13 @@
+"use client";
+
 import { Button } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 
+import { useRouter } from "next/navigation";
+
 export default function Home() {
+	const router = useRouter();
 	return (
 		<section className="px-3">
 			<div className="flex flex-col space-y-3">
@@ -13,8 +18,14 @@ export default function Home() {
 					software and programs.
 				</p>
 				<div></div>
-				<Button type="primary">
-					<Link href={"/contact"}>Hire Me</Link>
+				<Button
+					type="primary"
+					className="w-full"
+					onClick={() => {
+						router.push("/contact");
+					}}
+				>
+					Hire Me
 				</Button>
 			</div>
 		</section>
