@@ -35,6 +35,10 @@ const ProjectsPage = () => {
 					<p>Card content</p>
 				</Card>
 			</Space>
+
+			<Link className="nav-link" href="https://github.com/SaudAhmed96">
+				Github
+			</Link>
 		</section>
 	);
 };
