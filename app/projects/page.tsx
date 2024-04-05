@@ -12,7 +12,7 @@ const ProjectsPage = () => {
 			<Space className="flex flex-wrap" direction="horizontal" size={16}>
 				<Card
 					title="Dealicious - Fiserv"
-					extra={<Link href="#">More</Link>}
+					extra={<Link href="/projects/1">More</Link>}
 					style={{ width: 300, padding: 4 }}
 				>
 					<Image src={dealiciousImg} alt="Dealicious" />
@@ -30,7 +30,7 @@ const ProjectsPage = () => {
 				</Card>
 				<Card
 					title="RemindMii - BrainStation"
-					extra={<Link href="#">More</Link>}
+					extra={<Link href="/projects/2">More</Link>}
 					style={{ width: 300, padding: 4 }}
 				>
 					<ul className="list-disc">
@@ -41,7 +41,7 @@ const ProjectsPage = () => {
 				</Card>
 				<Card
 					title="NextJs App Project"
-					extra={<Link href="#">More</Link>}
+					extra={<Link href="/projects/3">More</Link>}
 					style={{ width: 300, padding: 4 }}
 				>
 					<Image src={nextJsProject} alt="NextJs Project Image" />

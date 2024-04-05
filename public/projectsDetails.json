@@ -1,17 +1,17 @@
 [
     {
         "id": "1",
-        "projectName": "Fiserv",
-        "projectDetails": "hello"
+        "projectName": "Dealicious",
+        "projectDetails": "hello this has details about Dealicious app"
     },
     {
         "id": "2",
-        "projectName": "Fiserv",
-        "projectDetails": "hello"
+        "projectName": "RemindMii",
+        "projectDetails": "hi this has details about remindMii app"
     },
     {
         "id": "3",
-        "projectName": "Fiserv",
-        "projectDetails": "hello"
+        "projectName": "NextJS",
+        "projectDetails": "hello this has details about remindmii"
     }
 ]
