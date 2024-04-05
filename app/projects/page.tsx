@@ -40,3 +40,11 @@ const ProjectsPage = () => {
 };
 
 export default ProjectsPage;
+
+// export function generateStaticParams() {
+// 	return [
+// 		{ id: "1", name: "Fiserv" },
+// 		{ id: "2", name: "Fiserv" },
+// 		{ id: "3", name: "Fiserv" },
+// 	];
+// }
