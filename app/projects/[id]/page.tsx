@@ -9,7 +9,6 @@ const Project1Page = ({ params }: { params: { id: string } }) => {
 		<div>
 			<h1>
 				Project {params.id} : {myData?.projectName}
-				{/* {slug} */}
 			</h1>
 			<p> {myData?.projectDetails}</p>
 		</div>
